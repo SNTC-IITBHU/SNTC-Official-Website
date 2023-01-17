@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div className="bg-black">
-        <Amongusbg></Amongusbg>
+      {/* <Amongusbg></Amongusbg> */}
       <Navbar></Navbar>
       <Hero></Hero>
       <Aboutus ></Aboutus>

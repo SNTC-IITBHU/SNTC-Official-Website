@@ -16,7 +16,7 @@ const Amongusbg = () => {
     }, []);
 
     return (
-      <div className="z-[-100]">
+      <div className="h-screen">
         <Particles
             id="tsparticles"
             init={particlesInit}
