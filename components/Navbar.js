@@ -4,7 +4,7 @@ const Navbar=()=>{
     const [toggle, setToggle] = useState(false);
     const [active, setActive] = useState("Home");
     return (
-        <div className="flex ">
+        <div className="flex">
             <div className="bg-black w-[40%] p-[1%] z-[100] sm:p-0 2xl:w-[20%] xl:w-[18%] lg:w-[18%] md:w-[20%] sm:w-[20%] opacity-80">
                 <img src="/sidelogo.svg" className="z-[100" ></img>
             </div>
