@@ -4,18 +4,19 @@ import Achievements from "../components/Achievements";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Amongusbg from "@/components/Amongusbg";
-
+import Technex from "@/components/Technex";
 export default function Home() {
   return (
     <>
       <div className="bg-black">
-      {/* <Amongusbg></Amongusbg> */}
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Aboutus ></Aboutus>
-      <Achievements></Achievements>
-      <Footer></Footer>
+        {/* <Amongusbg></Amongusbg> */}
+        <Navbar></Navbar>
+        <Hero></Hero>
+        <Aboutus></Aboutus>
+        <Technex></Technex>
+        <Achievements></Achievements>
+        <Footer></Footer>
       </div>
     </>
-  )
+  );
 }
