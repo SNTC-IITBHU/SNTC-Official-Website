@@ -13,8 +13,8 @@ export default function Home() {
         <Navbar></Navbar>
         <Hero></Hero>
         <Aboutus></Aboutus>
-        <Technex></Technex>
         <Achievements></Achievements>
+        <Technex></Technex>
         <Footer></Footer>
       </div>
     </>
