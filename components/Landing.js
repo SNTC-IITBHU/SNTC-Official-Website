@@ -4,11 +4,7 @@ const Landing = () => {
   return (
     <div className={styles.container}>
       <div className={styles.center_title}>
-        <h1>
-          <span>SNTC </span>
-          IIT BHU
-        </h1>
-        <h4>Science & Technology Council</h4>
+        <img src="/landing_title.svg" alt="" />
       </div>
     </div>
   );
