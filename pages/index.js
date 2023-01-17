@@ -1,17 +1,21 @@
-
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import About from '../components/About'
-import Landing from '../components/Landing'
-import Achievements from '../components/Achievements'
+import Navbar from "../components/Navbar";
+import Aboutus from "../components/Aboutus";
+import Achievements from "../components/Achievements";
+import Hero from "../components/Hero";
+import Footer from "../components/Footer";
+import Amongusbg from "@/components/Amongusbg";
 
 export default function Home() {
   return (
     <>
-      <Landing></Landing>
-      <About></About>
+      <div className="bg-black">
+        <Amongusbg></Amongusbg>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Aboutus ></Aboutus>
       <Achievements></Achievements>
+      <Footer></Footer>
+      </div>
     </>
   )
 }

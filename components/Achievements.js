@@ -1,18 +1,8 @@
-import styles from "../styles/Achievements.module.css";
-
-const Achievements = () => {
-  return (
-    <>
-      <div class={styles.ocean}>
-        <div class={styles.wave}></div>
-      </div>
-      <div class={styles.container}>
-        <div class={styles.text}>
-          <img src="/Achievements.svg" alt="" />
+const Achievements=()=>{
+    return (
+        <div>
+            <h1 className="text-white">Achievements</h1>
         </div>
-      </div>
-    </>
-  );
+    )
 }
-
-export default Achievements
+export default Achievements;

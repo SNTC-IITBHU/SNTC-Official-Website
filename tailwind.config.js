@@ -5,7 +5,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    
+    extend: {
+      fontFamily: {
+          'montserrat': ['Montserrat'],
+          'lato': ['Lato'],
+          'garamond': ['Garamond']
+      }
   },
+  },
+  variants:{},
   plugins: [],
 }
