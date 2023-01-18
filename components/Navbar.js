@@ -4,13 +4,13 @@ const Navbar=()=>{
     const [toggle, setToggle] = useState(false);
     const [active, setActive] = useState("Home");
     return (
-        <div className="flex fixed z-10">
+        <div className="flex relative z-10">
             <div className="w-[40%] p-[1%] z-[100] sm:p-0 2xl:w-[20%] xl:w-[18%] lg:w-[18%] md:w-[20%] sm:w-[20%] opacity-100 m-5">
-                <img src="/sidelogo.svg" className="z-[100" ></img>
+                <img src="/sidelogo.svg" className="z-[100] " ></img>
             </div>
-            <div className= "static opacity-90 z-[100]  w-[85%] sm:flex hidden 2xl:w-[80%] xl:w-[83%] lg:w-[90%] md:w-[90%]  pl-0 md:pl-[24%] sm:w-[80%]">
+            <div className= "fixed right-0 opacity-100 z-[100]  w-[85%] sm:flex hidden 2xl:w-[80%] xl:w-[83%] lg:w-[80%] md:w-[90%]  pl-0 md:pl-[24%] sm:w-[80%]">
                 <img src="/navbarbg.svg" className="list-none z-[100] sm:flex hidden"></img>
-                <div className="absolute z-[100] top-0 right-0">
+                <div className="fixed z-[100] top-0 right-0">
                     <ul className="list-none sm:flex hidden z-[100] justify-end items-center flex-1">
                         {navLinks.map((nav, index) => (
                         <li
@@ -26,20 +26,20 @@ const Navbar=()=>{
                     </ul>
                 </div>
             </div>
-            <div className="sm:hidden flex flex-1 justify-end items-center z-[200] pr-[2%] pt-0">
+            <div className="sm:hidden  flex flex-1 justify-end items-center z-[200] pr-[2%] pt-0">
         <img
           src={toggle ? "/close.svg" : "/menu.svg"}
           alt="menu"
-          className="static top-0 w-[30px] h-[34px] object-contain z-[100]"
+          className="fixed  top-2 right-3 w-[30px] h-[34px] object-contain opacity-100 z-[100]"
           onClick={() => setToggle(!toggle)}
         />
 
         <div
           className={`${
-            !toggle ? "hidden" : "flex static"
-          }  p-6 bg-[#240631] absolute top-[7%] right-0 mx-4 my-4 min-w-[140px] rounded-xl sidebar z-[200] `}
+            !toggle ? "hidden" : "flex "
+          }  p-6 bg-[#240631] opacity-100 fixed top-[7%] right-0 mx-4 my-0 min-w-[140px] rounded-xl sidebar z-[900] `}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col z-[100]">
+          <ul className="list-none opacity-100 flex justify-end items-start flex-1 flex-col z-[100]">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
