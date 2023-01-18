@@ -2,7 +2,7 @@ import Wave from "react-wavify";
 
 const Contact = () => {
   return (
-    <div className="relative top-[-10%]">
+    <div className="relative md:top-[-10%] top-[-10%]">
       <Wave
         fill="#2D1634"
         paused={false}
@@ -17,17 +17,29 @@ const Contact = () => {
         <img className="h-[5vh]" src="/Contacts/Meet.svg" alt="" />
         <div className="flex flex-row justify-around mb-[10vh]">
           <div className="flex flex-col">
-            <img src="/Contacts/image 20.svg" alt="" />
+            <img
+              className="w-[25vw] md:w-auto"
+              src="/Contacts/image 20.svg"
+              alt=""
+            />
             <div className="m-auto text-cyan-50 font-bold">Lakshya Singh</div>
             <div className="text-white m-auto">Joint General Secretary</div>
           </div>
           <div className="flex flex-col">
-            <img src="/Contacts/image 21.svg" alt="" />
+            <img
+              className="w-[25vw] md:w-auto"
+              src="/Contacts/image 21.svg"
+              alt=""
+            />
             <div className="m-auto text-cyan-50 font-bold">Manish Rai</div>
             <div className="text-white m-auto">General Secretary</div>
           </div>
           <div className="flex flex-col">
-            <img src="/Contacts/image 22.svg" alt="" />
+            <img
+              className="w-[25vw] md:w-auto"
+              src="/Contacts/image 22.svg"
+              alt=""
+            />
             <div className="m-auto text-cyan-50 font-bold">Pretty Sarwa</div>
             <div className="text-white m-auto">Joint General Secretary</div>
           </div>
