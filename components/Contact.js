@@ -2,7 +2,7 @@ import Wave from "react-wavify";
 
 const Contact = () => {
   return (
-    <div className="relative md:top-[-70vh] top-[-10%]">
+    <div className="relative md:top-[-50vh] top-[-10%]">
       <Wave
         fill="#2D1634"
         paused={false}
