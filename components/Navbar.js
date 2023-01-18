@@ -4,18 +4,18 @@ const Navbar=()=>{
     const [toggle, setToggle] = useState(false);
     const [active, setActive] = useState("Home");
     return (
-        <div className="flex">
-            <div className="bg-black w-[40%] p-[1%] z-[100] sm:p-0 2xl:w-[20%] xl:w-[18%] lg:w-[18%] md:w-[20%] sm:w-[20%] opacity-80">
+        <div className="flex fixed z-10">
+            <div className="w-[40%] p-[1%] z-[100] sm:p-0 2xl:w-[20%] xl:w-[18%] lg:w-[18%] md:w-[20%] sm:w-[20%] opacity-100 m-5">
                 <img src="/sidelogo.svg" className="z-[100" ></img>
             </div>
-            <div className= "static opacity-80 z-[100]  bg-black w-[85%] sm:flex hidden 2xl:w-[80%] xl:w-[83%] lg:w-[90%] md:w-[90%]  pl-0 md:pl-[24%] sm:w-[80%]">
+            <div className= "static opacity-90 z-[100]  w-[85%] sm:flex hidden 2xl:w-[80%] xl:w-[83%] lg:w-[90%] md:w-[90%]  pl-0 md:pl-[24%] sm:w-[80%]">
                 <img src="/navbarbg.svg" className="list-none z-[100] sm:flex hidden"></img>
                 <div className="absolute z-[100] top-0 right-0">
                     <ul className="list-none sm:flex hidden z-[100] justify-end items-center flex-1">
                         {navLinks.map((nav, index) => (
                         <li
                             key={nav.id}
-                            className={`font-poppins font-normal  cursor-pointer z-[100]  2xl:text-[20px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[14px] ${
+                            className={`mt-5 font-poppins font-normal  cursor-pointer z-[100]  2xl:text-[20px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[14px] ${
                             active === nav.title ? " z-[100] text-white font-bold underline decoration-red-600" : "text-stone-300"
                             } ${index === navLinks.length - 1 ? "2xl:mr-[12%] xl:mr-[12%] lg:mr-[8%] md:mr-[3%] sm:mr-[6%]" : "2xl:mr-[20%] xl:mr-[20%] lg:mr-[12%] md:mr-[4%] sm:mr-[8%]"}`}
                             onClick={() => setActive(nav.title)}

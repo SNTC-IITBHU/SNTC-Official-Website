@@ -9,7 +9,7 @@ export default function Achievements(){
         { source: "/sliderimage.png", title: "kvt" },
       ];
     return (
-      <div className="relative top-[-20vh]">
+      <div id="achievements" className="relative top-[-20vh]">
         <Wave
           fill="#2D1634"
           paused={false}

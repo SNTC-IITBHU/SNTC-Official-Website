@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Amongusbg from "@/components/Amongusbg";
 import Technex from "@/components/Technex";
+import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
         <Aboutus></Aboutus>
         <Achievements></Achievements>
         <Technex></Technex>
+        <Contact></Contact>
         <Footer></Footer>
       </div>
     </>

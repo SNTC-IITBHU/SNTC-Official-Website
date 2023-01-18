@@ -4,7 +4,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Aboutus = () => {
   return (
-    <div className="relative top-[-5%]">
+    <div id="about-us" className="relative top-[-5%]">
       <Wave
         fill="#2D1634"
         paused={false}
