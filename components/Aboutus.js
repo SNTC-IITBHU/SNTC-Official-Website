@@ -15,7 +15,7 @@ const Aboutus = () => {
           points: 2,
         }}
       />
-      <div className="md:h-screen relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
+      <div className="md:h-[120vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
         <div
           className="
         relative md:top-[20%]
