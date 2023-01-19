@@ -9,7 +9,7 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-black overflow-hidden">
         {/* <Amongusbg></Amongusbg> */}
         <Navbar></Navbar>
         <Hero></Hero>
