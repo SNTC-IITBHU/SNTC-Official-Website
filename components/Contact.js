@@ -40,7 +40,7 @@ const Contact = () => {
               src="/Contacts/image 22.svg"
               alt=""
             />
-            <div className="m-auto text-cyan-50 font-bold">Pretty Sarwa</div>
+            <div className="m-auto text-cyan-50 font-bold">Preety Sarwa</div>
             <div className="text-white m-auto">Joint General Secretary</div>
           </div>
         </div>
