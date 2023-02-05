@@ -41,7 +41,7 @@ const Aboutus = () => {
         >
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <img
-              className=" 2xl:w-[1600px] w-[300px] mt-[6%] 2xl:ml-[2%] ml-[6%]"
+              className=" 2xl:w-[1600px] w-[300px] 2xl:mt-[6%] mt-[4%] 2xl:ml-[2%] ml-[6%]"
               src="/About/imagesntc_abt.svg"
               alt=""
             />
