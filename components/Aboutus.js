@@ -35,26 +35,26 @@ const Aboutus = () => {
           className="
         relative md:top-[20%]
         flex lg:flex-row flex-col sm:flex-col w-[90vw]
-        md:justify-around
+        
         mx-auto
         "
         >
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <img
-              className="h-[20vh]
-            my-[10%]  
-            "
+              className="sm : h-[200px] w-[900px] my-[10%] mr-10 md : mb-[200px]"
               src="/About/imagesntc_abt.svg"
               alt=""
             />
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInRight">
             <div
-              className="about-content flex flex-col
-          my-[5%] md:justify-around h-[50vh]"
+              className="about-main sm :  flex flex- flex-wrap 
+          mt-[-200px] ml-[15%] md:justify-around h-[50vh] md : mt-[100px] "
             >
-              <img src="/About/About usabt_title.svg" alt="" />
-              <img className="my-[10%] " src="/About/abt_content.svg" alt="" />
+              {/* <img src="/About/About usabt_title.svg" alt="" /> */}
+              {/* <img className="my-[10%] " src="/About/abt_content.svg" alt="" /> */}
+              <div className="about-heading text-[#8C50A6] text-8xl font-bold md : my-[-120px]">About Us</div>
+              <div className="about-content ml-[-2%] text-white text-3xl mt-[-100px]  md : mt-[200px] ml-[-10%]">The Science and Technology Council at IIT BHU is a student-run organization that aims to promote the understanding and application of science and technology among the IIT BHU community. </div>
             </div>
           </AnimationOnScroll>
         </div>

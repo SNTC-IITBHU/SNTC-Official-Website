@@ -6,9 +6,10 @@ const Navbar=()=>{
     return (
 
         <div className="flex z-10">
-            <div className="w-[40%] p-[1%] z-[100] sm:p-0 2xl:w-[20%] xl:w-[18%] lg:w-[18%] md:w-[20%] sm:w-[20%] opacity-100 m-5">
-                <img src="/sidelogo.svg" className="z-[100] " ></img>
+            <div className="w-[40%] p-[0%] z-[100] sm:p-0 2xl:w-[20%] xl:w-[18%] lg:w-[18%] md:w-[20%] sm:w-[20%] opacity-100 m-5">
+                <img src="/sidelogo.svg" className="z-[100] h-[200px] w-[100px]" ></img>
             </div>
+           
             <div className= "fixed right-0 opacity-100 z-[100]  w-[85%] sm:flex hidden 2xl:w-[80%] xl:w-[83%] lg:w-[80%] md:w-[90%]  pl-0 md:pl-[24%] sm:w-[80%]">
                 <img src="/navbarbg.svg" className="list-none z-[100] sm:flex hidden"></img>
                 <div className="fixed z-[100] top-0 right-0">
