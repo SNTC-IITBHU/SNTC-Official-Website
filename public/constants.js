@@ -9,9 +9,14 @@ export const navLinks=[
         title:"About_Us",
          
      },
-     {
-        id:"events",
-        title:"Events",
+    //  {
+    //     id:"events",
+    //     title:"Events",
+         
+    //  },
+    {
+        id:"clubs",
+        title:"Clubs",
          
      },
      {
