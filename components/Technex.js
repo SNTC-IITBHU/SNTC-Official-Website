@@ -5,7 +5,7 @@ const Technex=()=>{
     return (
       <div
         className="relative w-screen  flex flex-col top-[-40vh] lg:top-[-50vh]
-      h-[80vh] md:h-[120vh]  w-screen bg-cover bg-[url('/Technex/technex_bg.svg')] justify-around"
+      h-[60vh] md:h-[120vh]  w-screen bg-cover bg-[url('/Technex/technex_bg.svg')] justify-around"
       >
         <img
           className="h-[10vh] md:h-[30vh] mt-[10vh]"

@@ -20,11 +20,11 @@ export default function Achievements(){
             points: 2,
           }}
         />
-        <div className="bg-[#2D1634] mt-[-10px] h-[120vh] relative -top-5">
-          <div className="text-center text-5xl text-pink-600 font-extrabold relative top-[5%]">
-            ACHIEVEMENTS
+        <div className="bg-[#2D1634] mt-[-10px] md:h-[120vh] h-[100vh] relative -top-5">
+          <div className="text-center md:text-8xl text-5xl text-[#8C50A6] font-bold relative top-[5%]">
+            Achievements
           </div>
-          <div className="">
+          <div className="md:mt-[5%]">
             <ImageSlider slides={slides} />
           </div>
         </div>
