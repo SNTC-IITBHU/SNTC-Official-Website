@@ -41,7 +41,7 @@ const Clubs = () => {
         >
           <div
             className="text-[#D12156] text-center text-3xl font-extrabold lg:text-7xl md:text-5xl m-0 p-0
-          font-montserrat
+          font-serif
           py-10
           "
           >
@@ -60,10 +60,10 @@ const Clubs = () => {
             <img src="/assi_ghat.jpg" alt="" />
             <div className="
             sm:w-[90vw]
-            lg:w-[50vw] h-50vh
-            text-white text-center text-2xl
-             lg:text-4xl md:text-3xl m-0 p-0
-            font-sans
+            lg:w-[50vw] h-50vh font-montserrat
+            text-white text-justify text-1.5xl not-italic font-light tracking-normal leading-10
+             lg:text-4xl md:text-3xl m-0 p-0 px-8
+           
             my-10
             ">
               The Science and Technology Council , IIT BHU comprises various
