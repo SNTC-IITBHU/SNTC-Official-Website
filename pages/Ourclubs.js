@@ -1,4 +1,4 @@
-import ClubsPages from "../components/ClubsPage";
+import ClubsPages from "../components/Clubspage";
 import Navbar from "../components/Navbar";
 // import Footer from "../components/Footer";
 export default function OurClubs() {
