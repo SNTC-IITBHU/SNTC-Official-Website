@@ -13,14 +13,14 @@ const ClubsPage = () => {
     <div className="bg-black">
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
-      <div id="content-wrapper" className="fixed pt-[75px] ">
-        <ul className="flex flex-col  gap-8 pr-[9px] top-[80px] h-[100%]">
+      <div id="content-wrapper" className="fixed pt-[75px] mt-[10px] ">
+        <ul className="flex flex-col  gap-8 pr-[9px]  h-[100%]">
           {clubscontent.map((nav, index) => (
             <li
               key={nav.id}
-              className={`cursor-pointer flex items-center text-white pr-[20px] w-[98%] pl-[4px] list-none relative left-2 h-67px  font-montserrat not-italic font-semibold text-[28px] hover:bg-white hover:rounded-l-lg hover:text-black hover:w-[250px] ${
+              className={`cursor-pointer flex items-center text-white pr-[20px] w-[98%] pl-[4px] list-none relative left-2 h-67px  font-montserrat not-italic font-semibold text-[28px] hover:bg-white hover:rounded-l-lg hover:text-black hover:w-[192px] ${
                 active === nav.id
-                  ? ` z-[100] bg-white absolute text-black rounded-l-[10px] w-[250px]  `
+                  ? `  bg-white -z-10 text-black rounded-l-[10px] w-[192px]  `
                   : "text-stone-300"
               } ${
                 index === clubscontent.length - 2
@@ -35,11 +35,11 @@ const ClubsPage = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col relative left-[195px] top-[20px] bottom-10px rounded-l-[100px] w-[1324px] box-border h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
+      <div className="flex flex-col  bottom-10px rounded-l-[100px] w-[1319px] box-border ml-[200px] mt-[20px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
         <div className="pt-[20px] relative right-[60px]  font-sans pl-[30px] w-[700px] not-italic font-bold text-[50px] text-center text-white ">
           Check out our <span className="text-pink-700">clubs</span>
         </div>
-        <h4 className="w-[1310px] text-justify pl-[80px] pr-[0px] leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold text-[25px] text-white ">
+        <h4 className="w-[1305px] text-justify pl-[80px] pr-[0px] leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold text-[25px] text-white ">
           Science and Technology Council offers clubs for students interested in
           science and technology fields such as robotics, engineering,
           astronomy, and sustainability. These clubs offer hands-on experiences,
