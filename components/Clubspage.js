@@ -13,8 +13,8 @@ const ClubsPage = () => {
     <div className="bg-black">
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
-      <div id="content-wrapper" className="fixed pt-[75px] mt-[10px] ">
-        <ul className="flex flex-col  gap-8 pr-[9px]  h-[100%]">
+      <div id="content-wrapper" className="fixed pt-[75px] mt-[10px] invisible lg:visible">
+        <ul className="flex flex-col  gap-8 pr-[9px] ml-[12px] mt-[-60px] h-[100%]">
           {clubscontent.map((nav, index) => (
             <li
               key={nav.id}
@@ -35,11 +35,11 @@ const ClubsPage = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col  bottom-10px rounded-l-[100px] w-[1319px] box-border ml-[200px] mt-[20px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
-        <div className="pt-[20px] relative right-[60px]  font-sans pl-[30px] w-[700px] not-italic font-bold text-[50px] text-center text-white ">
-          Check out our <span className="text-pink-700">clubs</span>
+      <div className="flex flex-col  bottom-10px rounded-l-[100px] w-[1319px] box-border mt-[30px] mb-[60px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F] w-[85%] xl:w-[80%] lg:w-[83%]: md:w-[83%] sm:w-[82%] ml-[50px] lg:ml-[200px] ">
+        <div className="pt-[20px] relative right-[60px] font-sans pl-[30px] not-italic font-bold text-[50px] text-center text-white w-[550px] sm:w-[700px]">
+          Check out our <span className="text-pink-700 ml-[80px] sm:ml-[0px]">clubs</span>
         </div>
-        <h4 className="w-[1305px] text-justify pl-[80px] pr-[0px] leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold text-[25px] text-white ">
+        <h4 className="text-justify pl-[80px] pr-[0px] leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold text-[25px] text-white w-[350px] 2xl:w-[1100px] xl:w-[1000px] lg:w-[880px] md:w-[670px]">
           Science and Technology Council offers clubs for students interested in
           science and technology fields such as robotics, engineering,
           astronomy, and sustainability. These clubs offer hands-on experiences,
@@ -53,7 +53,7 @@ const ClubsPage = () => {
               <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px]  font-serif not-italic font-bold text-[35px]  text-pink-700 ">
                 {nav.name}
               </div>
-              <div className="flex items-center justify-start pl-[85px] pb-[40px] pt-[10px]">
+              <div className="flex items-center justify-start pl-[85px] pb-[40px] pt-[10px] flex flex-col lg:flex-row">
                 <Image
                   className="realtive pl- rounded-[50px] outline outline-2 border-black"
                   src={nav.image}
@@ -61,9 +61,11 @@ const ClubsPage = () => {
                   width={280}
                   height={280}
                 />
-                <h4 className="pl-[40px] font-['Poppins'] pr-[30px] pb-[10px] pt-[20px] leading-[32px] not-italic font-normal text-[25px] w-[900px] text-justify text-white tracking-wide">
+                <div>
+                <h4 className="pl-[40px] font-['Poppins'] pr-[30px] pb-[10px] pt-[20px] leading-[32px] not-italic font-normal text-[25px] w-[300px] 2xl:w-[850px] xl:w-[650px] lg:w-[550px] md:w-[500px] text-justify text-white tracking-wide">
                   {nav.description}
                 </h4>
+                </div>
               </div>
             </div>
           ))}
