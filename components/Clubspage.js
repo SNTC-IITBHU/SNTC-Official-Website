@@ -10,7 +10,7 @@ const ClubsPage = () => {
   const [active, setActive] = useState("Ourclubs");
 
   return (
-    <div className="bg-black">
+    <div className="bg-black mt-24">
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
       <div id="content-wrapper" className="fixed pt-[75px] mt-[10px] ">
