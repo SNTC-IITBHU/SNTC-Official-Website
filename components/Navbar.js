@@ -11,13 +11,13 @@ const Navbar=()=>{
             </div>
            
             <div className= "fixed bg-black right-0 opacity-100 z-[180]  w-[85%] sm:flex hidden 2xl:w-[80%] xl:w-[83%] lg:w-[80%] md:w-[90%]  pl-0 md:pl-[24%] sm:w-[80%]">
-                <div className="w-screen bg-black fixed right-0 lg:h-[9.5vh] h-[5vh]"></div>
+                <div className="w-screen bg-black fixed right-0 2xl:h-[10.5vh] lg:h-[9.5vh] h-[5vh]"></div>
                 <div className="fixed z-[100] top-0 right-0">
                     <ul className="list-none sm:flex hidden z-[100] justify-end items-center flex-1">
                         {navLinks.map((nav, index) => (
                         <li
                             key={nav.id}
-                            className={`mt-2 font-poppins font-normal  cursor-pointer z-[100]  2xl:text-[20px] xl:text-[20px] lg:text-[21px] md:text-[18px] sm:text-[14px] ${
+                            className={`mt-2 font-poppins font-normal  cursor-pointer z-[100]  2xl:text-[23px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[14px] 2xl:mt-[6%] ${
                             active === nav.title ? ` z-[100] text-white font-bold underline underline-offset-8 decoration-white ` : "text-stone-300"
                             } ${index === navLinks.length - 1 ? "2xl:mr-[12%] xl:mr-[12%] lg:mr-[8%] md:mr-[3%] sm:mr-[6%]" : "2xl:mr-[20%] xl:mr-[20%] lg:mr-[12%] md:mr-[4%] sm:mr-[8%]"}`}
                             onClick={() => setActive(nav.title)}
