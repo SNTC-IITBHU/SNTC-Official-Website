@@ -39,7 +39,7 @@ const ClubsPage = () => {
         <div className="pt-[20px] relative  md:right-[60px]  font-sans pl-[60px] pr-10 md:pr-0  md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ">
           Check out our <span className="text-pink-700">clubs</span>
         </div>
-        <h4 className="w-[98.9%] text-justify pl-[80px] pr-[0px] leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold lg:text-[25px] text-white ">
+        <h4 className="w-[98.9%] text-center md:text-justify pl-[80px] pr-[40px] md:pr-[0px] leading-[20px] md:leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold text-[18px] md:text-[25px] text-white ">
           Science and Technology Council offers clubs for students interested in
           science and technology fields such as robotics, engineering,
           astronomy, and sustainability. These clubs offer hands-on experiences,
@@ -50,10 +50,10 @@ const ClubsPage = () => {
         <>
           {clubscontent.map((nav, index) => (
             <div id={nav.id} key={index}>
-              <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px]  font-serif not-italic font-bold text-[25px] md:text-[35px]  text-pink-700 ">
+              <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px] mr-[32px] md:mr-0 md:text-[35px] font-serif font-bold not-italic text-[25px] text-pink-700 ">
                 {nav.name}
               </div>
-              <div className="flex flex-wrap m-auto  md:m-0 items-center xl:justify-start xl:pl-[85px] pb-[40px] pt-[10px]">
+              <div className="flex flex-wrap m-auto md:m-0 items-center xl:justify-start xl:pl-[85px] pb-[40px] pt-[10px]">
                 <Image
                   className="realtive block m-auto rounded-[50px] outline outline-2 border-black"
                   src={nav.image}
@@ -61,7 +61,7 @@ const ClubsPage = () => {
                   width={280}
                   height={280}
                 />
-                <h4 className="pl-[40px] font-['Poppins'] pr-[30px] pb-[10px] pt-[20px] leading-[32px] not-italic font-normal text-[25px] w-[900px] text-justify text-white tracking-wide">
+                <h4 className="pl-[40px] font-['Poppins'] pr-[30px] pb-[10px] pt-[20px] leading-[20px] md:leading-[32px] not-italic font-normal text-[18px] md:text-[25px] w-[900px] text-center md:text-justify text-white tracking-wide">
                   {nav.description}
                 </h4>
               </div>
