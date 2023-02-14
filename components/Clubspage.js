@@ -35,11 +35,11 @@ const ClubsPage = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col  bottom-10px rounded-l-[100px] w-[1319px] box-border ml-[200px] mt-[20px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
-        <div className="pt-[20px] relative right-[60px]  font-sans pl-[30px] w-[700px] not-italic font-bold text-[50px] text-center text-white ">
+      <div className="flex flex-col  bottom-10px rounded-l-[100px] xl:w-[86.75%] box-border ml-[200px] mt-[20px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
+        <div className="pt-[20px] relative  md:right-[60px]  font-sans pl-[60px] pr-10 md:pr-0  md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ">
           Check out our <span className="text-pink-700">clubs</span>
         </div>
-        <h4 className="w-[1305px] text-justify pl-[80px] pr-[0px] leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold text-[25px] text-white ">
+        <h4 className="w-[98.9%] text-justify pl-[80px] pr-[0px] leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold lg:text-[25px] text-white ">
           Science and Technology Council offers clubs for students interested in
           science and technology fields such as robotics, engineering,
           astronomy, and sustainability. These clubs offer hands-on experiences,
@@ -50,12 +50,12 @@ const ClubsPage = () => {
         <>
           {clubscontent.map((nav, index) => (
             <div id={nav.id} key={index}>
-              <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px]  font-serif not-italic font-bold text-[35px]  text-pink-700 ">
+              <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px]  font-serif not-italic font-bold text-[25px] md:text-[35px]  text-pink-700 ">
                 {nav.name}
               </div>
-              <div className="flex items-center justify-start pl-[85px] pb-[40px] pt-[10px]">
+              <div className="flex flex-wrap m-auto  md:m-0 items-center xl:justify-start xl:pl-[85px] pb-[40px] pt-[10px]">
                 <Image
-                  className="realtive pl- rounded-[50px] outline outline-2 border-black"
+                  className="realtive block m-auto rounded-[50px] outline outline-2 border-black"
                   src={nav.image}
                   alt={nav.id}
                   width={280}
