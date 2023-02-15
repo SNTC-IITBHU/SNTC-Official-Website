@@ -30,7 +30,7 @@ const Clubs = () => {
           points: 3,
         }}
       />
-      <div className="h-[220vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
+      <div className="h-[200vh] lg:h-[220vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
         <div
           className="
         relative md:top-[15%]
@@ -48,7 +48,7 @@ const Clubs = () => {
             Our Clubs
           </div>
           <div
-            className='h-[70vh] w-90vh bg-fit bg-[url("/clubs.svg")]
+            className='h-[30vh] md:h-[70vh] w-90vh bg-fit bg-[url("/clubs.svg")]
           bg-no-repeat bg-center bg-contain
           '
           >
@@ -56,7 +56,8 @@ const Clubs = () => {
           </div>
           <div className="flex lg:flex-row
           flex-col sm:flex-col w-[90vw]
-          justify-center my-10">
+          justify-center my-10
+          ">
             <img src="/assi_ghat.jpg" alt="" />
             <div className="
             sm:w-[90vw]

@@ -15,8 +15,7 @@ const Aboutus = () => {
             setIsPaused(true);
           }, 1500);
         }}
-        afterAnimatedOut={
-          function (visible) {
+        afterAnimatedOut={function (visible) {
           setIsPaused(true);
         }}
       ></AnimationOnScroll>
@@ -30,7 +29,7 @@ const Aboutus = () => {
           points: 3,
         }}
       />
-      <div className="md:h-[100vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
+      <div className="h-[90vh] md:h-[100vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
         <div
           className="
         relative md:top-[20%]
@@ -53,8 +52,15 @@ const Aboutus = () => {
             >
               {/* <img src="/About/About usabt_title.svg" alt="" /> */}
               {/* <img className="my-[10%] " src="/About/abt_content.svg" alt="" /> */}
-              <div className="about-heading text-[#8C50A6] font-bold  text-[65px] 2xl:text-8xl  md:text-8xl md:mt-[-100px] md:mr-[-10px]">About Us</div>
-              <div className="about-content ml-[-2%] md:ml-[5%] text-white text-[19px] 2xl:mt-[-160px] 2xl:ml-[10%] 2xl:text-3xl  md:mt-[-80px] md:text-3xl">The Science and Technology Council at IIT BHU is a student-run organization that aims to promote the understanding and application of science and technology among the IIT BHU community. </div>
+              <div className="about-heading text-[#8C50A6] font-bold  text-[65px] 2xl:text-8xl  md:text-8xl md:mt-[-100px] md:mr-[-10px]">
+                About Us
+              </div>
+              <div className="about-content ml-[-2%] md:ml-[5%] text-white text-[19px] 2xl:mt-[-160px] 2xl:ml-[10%] 2xl:text-3xl  md:mt-[-80px] md:text-3xl">
+                The Science and Technology Council at IIT BHU is a student-run
+                organization that aims to promote the understanding and
+                application of science and technology among the IIT BHU
+                community.{" "}
+              </div>
             </div>
           </AnimationOnScroll>
         </div>
