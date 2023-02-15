@@ -41,7 +41,7 @@ const Aboutus = () => {
         >
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <img
-              className=" 2xl:w-[1600px] w-[300px] 2xl:mt-[6%] mt-[4%] 2xl:ml-[2%] ml-[6%]"
+              className=" 2xl:w-[1600px] w-[300px] 2xl:mt-[6%] mt-[4%] 2xl:ml-[2%] ml-[6%]  md:w-[1500px] md:mt-[-10px]"
               src="/About/imagesntc_abt.svg"
               alt=""
             />
@@ -53,8 +53,8 @@ const Aboutus = () => {
             >
               {/* <img src="/About/About usabt_title.svg" alt="" /> */}
               {/* <img className="my-[10%] " src="/About/abt_content.svg" alt="" /> */}
-              <div className="about-heading text-[#8C50A6] font-bold  text-[65px] 2xl:text-8xl">About Us</div>
-              <div className="about-content ml-[-2%] text-white text-[19px] mt-[-100px] 2xl:ml-[10%] 2xl:text-3xl  md : mt-0 ml-[-10%]">The Science and Technology Council at IIT BHU is a student-run organization that aims to promote the understanding and application of science and technology among the IIT BHU community. </div>
+              <div className="about-heading text-[#8C50A6] font-bold  text-[65px] 2xl:text-8xl  md:text-8xl md:mt-[-100px] md:mr-[-10px]">About Us</div>
+              <div className="about-content ml-[-2%] md:ml-[5%] text-white text-[19px] 2xl:mt-[-160px] 2xl:ml-[10%] 2xl:text-3xl  md:mt-[-80px] md:text-3xl">The Science and Technology Council at IIT BHU is a student-run organization that aims to promote the understanding and application of science and technology among the IIT BHU community. </div>
             </div>
           </AnimationOnScroll>
         </div>

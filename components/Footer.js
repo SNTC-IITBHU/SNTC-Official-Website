@@ -2,7 +2,7 @@ const Footer=()=>{
     return (
         <div id="contacts" className=" relative 2xl:h-[17.4vw] lg:h-[16vw] lg:w-screen lg:bg-cover lg:bg-no-repeat  bg-[url('/Footer/footerwave.svg')] w-screen h-[45vw] bg-no-repeat">
            
-           <img src="/Footer/temple.svg" className=" absolute top-[39%] left-[3%] 2xl:top-[18.4%] xl:top-[30%] lg:top-[32%] md:top-[27%] 2xl:left-[7%] xl:left-[2%] lg:left-[10%] xl:left-[3%] md:left-[4%] 2xl:w-[16%] xl:w-[20%] lg:w-[10%] md:w-[24%] w-[26%] bg-black"></img>
+           <img src="/Footer/temple.svg" className=" absolute top-[39%] left-[3%] 2xl:top-[18.4%] xl:top-[30%] lg:top-[32%] md:top-[20%] 2xl:left-[7%] xl:left-[2%] lg:left-[10%] xl:left-[3%] md:left-[4%] 2xl:w-[16%] xl:w-[20%] lg:w-[10%] md:w-[24%] w-[26%] bg-black"></img>
            <span className="absolute 2xl:top-[86%] xl:top-[60%] lg:top-[80%] md:top-[65%] 2xl:left-[6.1%] xl:left-[3%] lg:left-[3.5%] md:left-[1.5%] text-white font-semibold text-[20px] 2xl:text-[19px]  md:text-[16px] text-[8px] top-[82%] left-[1%]">Email: gensec.sntc@iitbhu.ac.in</span>
            
            <div className=" absolute 2xl:top-[27%] lg:top-[20%] md:top-[28%] 2xl:left-[31.7%] lg:left-[30%] md:left-[33%] 2xl:h-[71%] lg:h-[75%] md:h-[49%] bg-white xl:w-[0.15%] lg:w-[0.21%] md:w-[0.3%] w-[0.45%] top-[40%] left-[34%] h-[54%]"></div>

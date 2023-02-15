@@ -5,7 +5,7 @@ import { useState } from 'react';
 const Clubs = () => {
   const [isPaused, setIsPaused] = useState(true);
   return (
-    <div className="relative lg:top-[-25vh]
+    <div id="clubs" className="relative lg:top-[-25vh]
     top-[-20vh]
     ">
       <AnimationOnScroll
