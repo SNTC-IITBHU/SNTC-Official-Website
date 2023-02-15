@@ -20,9 +20,10 @@ const Navbar=()=>{
                             className={`mt-1 lg:mt-4 font-poppins font-normal  cursor-pointer z-[100]  2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[14px] 2xl:mt-[4%] ${
                             active === nav.title ? ` z-[100] text-white font-bold underline underline-offset-8 decoration-white ` : "text-stone-300"
                             } ${index === navLinks.length - 1 ? "2xl:mr-[12%] xl:mr-[12%] lg:mr-[8%] md:mr-[3%] sm:mr-[6%]" : "2xl:mr-[20%] xl:mr-[20%] lg:mr-[12%] md:mr-[4%] sm:mr-[8%]"}`}
+                            
                             onClick={() => setActive(nav.title)}
                         >
-                            <a href={`#${nav.id}`}>{nav.title}</a>
+                            <a  href={`/${nav.id}`}>{nav.title}</a>
                         </li>
                         ))}
                     </ul>
