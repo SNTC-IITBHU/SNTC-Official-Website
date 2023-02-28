@@ -20,6 +20,8 @@
     "react-dom": "18.2.0",
     "react-tsparticles": "^2.7.1",
     "react-wavify": "^1.7.0",
+    "swiper": "^9.0.5",
+    "swiper.js": "^1.0.0",
     "tsparticles": "^2.7.1"
   },
   "devDependencies": {
