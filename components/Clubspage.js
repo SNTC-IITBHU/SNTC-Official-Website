@@ -29,7 +29,7 @@ const ClubsPage = () => {
               }`}
               onClick={() => setActive(nav.id)}
             >
-              <a href={`#${nav.id}`}>{nav.id}</a>
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
