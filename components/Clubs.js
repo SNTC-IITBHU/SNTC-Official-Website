@@ -5,9 +5,12 @@ import { useState } from 'react';
 const Clubs = () => {
   const [isPaused, setIsPaused] = useState(true);
   return (
-    <div id="clubs" className="relative lg:top-[-25vh]
+    <div
+      id="clubs"
+      className="relative lg:top-[-25vh]
     top-[-20vh]
-    ">
+    "
+    >
       <AnimationOnScroll
         animateIn="animate__pulse"
         afterAnimatedIn={function (visible) {
@@ -33,14 +36,14 @@ const Clubs = () => {
       <div className="h-[200vh] lg:h-[220vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
         <div
           className="
-        relative md:top-[15%]
+        relative md:top-[2%]
         flex lg:flex-col flex-col sm:flex-col w-[90vw]
         md:justify-around
         mx-auto
         "
         >
           <div
-            className="text-[#D12156] text-center text-3xl font-extrabold lg:text-7xl md:text-5xl m-0 p-0
+            className="text-[#8C50A6] text-center text-3xl font-extrabold lg:text-7xl md:text-5xl m-0 p-0
           font-serif
           py-10
           "
@@ -51,22 +54,24 @@ const Clubs = () => {
             className='h-[30vh] md:h-[70vh] w-90vh bg-fit bg-[url("/clubs.svg")]
           bg-no-repeat bg-center bg-contain
           '
-          >
-            
-          </div>
-          <div className="flex lg:flex-row
+          ></div>
+          <div
+            className="flex lg:flex-row
           flex-col sm:flex-col w-[90vw]
           justify-center my-10
-          ">
-            <img src="/assi_ghat.jpg" alt="" />
-            <div className="
+          "
+          >
+            <img className='m-auto' src="/assi_ghat.jpg" alt="" />
+            <div
+              className="
             sm:w-[90vw]
             lg:w-[50vw] h-50vh font-montserrat
             text-white text-justify text-1.5xl not-italic font-light tracking-normal leading-10
              lg:text-4xl md:text-3xl m-0 p-0 px-8
            
             my-10
-            ">
+            "
+            >
               The Science and Technology Council , IIT BHU comprises various
               clubs in fields such as robotics, engineering, astronomy, and
               sustainability. These clubs organize various talk shows, projects,
