@@ -5,11 +5,6 @@ export const navLinks=[
         
     },
     {
-        id:"/#about-us",
-        title:"About_Us",
-         
-     },
-     {
         id:"/Ourclubs",
         title:"Clubs",
      },
@@ -25,7 +20,7 @@ export const navLinks=[
      },
      {
         id:"/#contacts",
-        title:"Contacts",
+        title:"Gallery",
          
      },
 
