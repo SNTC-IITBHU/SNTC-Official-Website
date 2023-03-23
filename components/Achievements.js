@@ -24,7 +24,7 @@ export default function Achievements() {
         <div className="text-center md:text-8xl text-5xl text-[#8C50A6] font-bold relative top-[5%]">
           Achievements
         </div>
-        <div className="flex items-center justify-center h-screen w-screen">
+        <div className="flex mt-28 justify-center h-screen w-screen">
           <ImageSlider slides={slides} />
         </div>
       </div>
