@@ -13,11 +13,12 @@
     "animate.css": "^4.1.1",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.2",
-    "next": "^13.1.6",
+    "next": "^13.2.4",
     "next.js": "^1.0.3",
     "react": "18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-tsparticles": "^2.7.1",
     "react-wavify": "^1.7.0",
     "tsparticles": "^2.7.1"
