@@ -3,7 +3,7 @@ import Wave from "react-wavify";
 export default function Achievements() {
 
   const slides = [
-    { source: "/180DC.svg", title: "kvt" },
+    { source: "/180 DC.svg", title: "kvt" },
     { source: "/InterIIT.svg", title: "kvt" },
     { source: "/ASTRO.svg", title: "kvt" },
     { source: "/InterIIT.svg", title: "kvt" },
