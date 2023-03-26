@@ -47,4 +47,5 @@ export const socialMedia=[
         icon:"twitter.svg",
         link:"https://twitter.com/technexiitbhu?lang=en",
     },
+    
 ];
