@@ -14,7 +14,7 @@ const ClubsPage = () => {
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
   
-      <div id="content-wrapper" className="  fixed pt-[60px] mt-[10px] ">
+      <div id="content-wrapper" className="  fixed pt-[55px] mt-[10px] ">
         <ul className="flex flex-col  gap-8 pr-[9px]  h-[100%]">
           {clubscontent.map((nav, index) => (
             <li
