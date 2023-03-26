@@ -13,7 +13,8 @@ const ClubsPage = () => {
     <div className="bg-black mt-24">
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
-      <div id="content-wrapper" className="fixed pt-[60px] mt-[10px] ">
+  
+      <div id="content-wrapper" className="  fixed pt-[60px] mt-[10px] ">
         <ul className="flex flex-col  gap-8 pr-[9px]  h-[100%]">
           {clubscontent.map((nav, index) => (
             <li
@@ -35,8 +36,9 @@ const ClubsPage = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col  bottom-10px rounded-l-[100px] xl:w-[86.75%] box-border ml-[200px] mt-[20px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
-        <div className="pt-[20px] relative  md:right-[60px]  font-sans pl-[60px] pr-10 md:pr-0  md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ">
+      <div className="  flex flex-col  bottom-10px rounded-l-[100px] xl:w-[86.75%] box-border ml-[200px] mt-[20px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
+        <div className=" ">
+        <div className="  pt-[20px] relative  md:right-[60px]  font-sans pl-[60px] pr-10 md:pr-0  md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ">
           Check out our <span className="text-pink-700">clubs</span>
         </div>
         <h4 className="w-[98.9%] text-center md:text-justify pl-[80px] pr-[40px] md:pr-[0px] leading-[20px] md:leading-[32px] font-['Poppins'] pb-[20px] not-italic font-semibold text-[18px] md:text-[25px] text-white ">
@@ -70,8 +72,9 @@ const ClubsPage = () => {
         </>
       </div>
 
-      {/* </section> */}
+      {/* </section> */}</div>
     </div>
+  
   );
 };
 export default ClubsPage;
