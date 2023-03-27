@@ -10,12 +10,12 @@ const ClubsPage = () => {
   const [active, setActive] = useState("Ourclubs");
 
   return (
-    <div className="bg-black mt-24">
+    <div className="bg-black mt-24 h-[649px]">
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
   
-      <div id="content-wrapper" className="  fixed pt-[55px] mt-[10px] ">
-        <ul className="flex flex-col  gap-8 pr-[9px]  h-[100%]">
+      <div id="content-wrapper" className="  fixed pt-[55px] mt-[36px] ">
+        <ul className="flex flex-col  gap-7 pr-[9px]  h-[100%]">
           {clubscontent.map((nav, index) => (
             <li
               key={nav.id}
@@ -36,8 +36,10 @@ const ClubsPage = () => {
         </ul>
       </div>
 
-      <div className="  flex flex-col  bottom-10px rounded-l-[100px] xl:w-[86.75%] box-border ml-[200px] mt-[20px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
-        <div className=" ">
+      <div className="  flex flex-col fixed bottom-10px rounded-l-[100px] xl:w-[86.75%] box-border ml-[200px] mt-[5px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
+        
+        <div className=" overflow-y-scroll overflow-x-hidden mb-[100px]">
+        
         <div className="  pt-[20px] relative  md:right-[60px]  font-sans pl-[60px] pr-10 md:pr-0  md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ">
           Check out our <span className="text-pink-700">clubs</span>
         </div>
