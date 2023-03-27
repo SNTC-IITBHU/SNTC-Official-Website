@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 export default function OurClubs() {
   return (
     <>
-      <div className="bg-black overflow-hidden m-0 p-0">
+      <div className="bg-black h-[100vh]   m-0 p-0">
         <Navbar></Navbar>
         <ClubsPages></ClubsPages>
       </div>

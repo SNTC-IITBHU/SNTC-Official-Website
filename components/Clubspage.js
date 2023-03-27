@@ -10,12 +10,13 @@ const ClubsPage = () => {
   const [active, setActive] = useState("Ourclubs");
 
   return (
-    <div className="bg-black mt-24 h-[645px]">
+    
+    <div className="mt-24 ">
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
   
-      <div id="content-wrapper" className="  fixed pt-[55px] mt-[36px] ">
-        <ul className="flex flex-col  gap-7 pr-[9px]  h-[100%]">
+      <div id="content-wrapper" className="  fixed pt-[55px] mt-[32px] ">
+        <ul className="flex flex-col  gap-5 pr-[9px]  h-[100%]">
           {clubscontent.map((nav, index) => (
             <li
               key={nav.id}
