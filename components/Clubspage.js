@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Image from "next/image";
+import Link from "next/link";
 
 import { clubscontent } from "../public/clubsContent.js";
 
@@ -31,7 +32,7 @@ const ClubsPage = () => {
               }`}
               onClick={() => setActive(nav.id)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link href={`#${nav.id}`}>{nav.title}</Link>
             </li>
           ))}
         </ul>
@@ -65,7 +66,7 @@ const ClubsPage = () => {
                   alt={nav.id}
                   width={280}
                   height={280}
-                />
+                ></Image>
                 <h4 className="pl-[40px] font-['Poppins'] pr-[30px] pb-[10px] pt-[20px] leading-[20px] md:leading-[32px] not-italic font-normal text-[18px] md:text-[25px] w-[900px] text-center md:text-justify text-white tracking-wide">
                   {nav.description}
                 </h4>

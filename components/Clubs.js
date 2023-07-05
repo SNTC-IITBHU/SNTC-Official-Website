@@ -2,6 +2,8 @@ import React from 'react'
 import Wave from "react-wavify";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { useState } from 'react';
+import Image from 'next/image'
+import Assighat from '../public/assi_ghat.jpg'
 const Clubs = () => {
   const [isPaused, setIsPaused] = useState(true);
   return (
@@ -61,15 +63,13 @@ const Clubs = () => {
           justify-center my-10
           "
           >
-            <img className='m-auto' src="/assi_ghat.jpg" alt="" />
+            <Image className='m-auto' src={Assighat} alt="assi ghat"></Image>
             <div
               className="
             sm:w-[90vw]
             lg:w-[50vw] h-50vh font-montserrat
             text-white text-justify text-1.5xl not-italic font-light tracking-normal leading-10
-             lg:text-4xl md:text-3xl m-0 p-0 px-8
-           
-            my-10
+             lg:text-3xl md:text-2xl m-0 p-0 px-8 mt-5
             "
             >
               The Science and Technology Council , IIT BHU comprises various

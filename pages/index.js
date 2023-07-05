@@ -10,7 +10,7 @@ import Clubs from "@/components/Clubs";
 export default function Home() {
   return (
     <>
-      <div className="bg-black overflow-hidden">
+      <div className="bg-[#110414] overflow-hidden">
         {/* <Amongusbg></Amongusbg> */}
         <Navbar></Navbar>
         <Hero></Hero>

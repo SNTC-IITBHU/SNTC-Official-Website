@@ -2,6 +2,8 @@ import Wave from "react-wavify";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useState } from "react";
+import Image from 'next/image'
+import Aboutimg from '../public/About/imagesntc_abt.svg'
 
 const Aboutus = () => {
   const [isPaused, setIsPaused] = useState(true);
@@ -39,11 +41,11 @@ const Aboutus = () => {
         "
         >
           <AnimationOnScroll animateIn="animate__fadeInLeft">
-            <img
+            <Image
               className=" 2xl:w-[1600px] w-[300px] 2xl:mt-[6%] mt-[4%] 2xl:ml-[2%] ml-[6%]  md:w-[1500px] md:mt-[-10px]"
-              src="/About/imagesntc_abt.svg"
+              src={Aboutimg}
               alt=""
-            />
+            ></Image>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInRight">
             <div
@@ -63,6 +65,8 @@ const Aboutus = () => {
               </div>
             </div>
           </AnimationOnScroll>
+
+
         </div>
       </div>
     </div>
