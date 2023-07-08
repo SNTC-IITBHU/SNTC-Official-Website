@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Amongusbg from "@/components/Amongusbg";
 import Technex from "@/components/Technex";
 import Contact from "@/components/Contact";
+import Contactus from "@/components/Contactus";
 import Clubs from "@/components/Clubs";
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Achievements></Achievements>
         <Technex></Technex>
         <Contact></Contact>
+        <Contactus></Contactus>
         <Footer></Footer>
       </div>
     </>
