@@ -35,7 +35,7 @@ const Clubs = () => {
           points: 3,
         }}
       />
-      <div className="h-[200vh] lg:h-[220vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
+      <div className="h-[200vh] lg:h-[180vh] relative -top-5 bg-gradient-to-b from-[#2D1634] to-[#1e0925]">
         <div
           className="
         relative md:top-[2%]
@@ -45,8 +45,7 @@ const Clubs = () => {
         "
         >
           <div
-            className="text-[#8C50A6] text-center text-3xl font-extrabold lg:text-7xl md:text-5xl m-0 p-0
-          font-serif
+            className="text-[#8C50A6] text-center text-3xl font-bold lg:text-8xl md:text-5xl m-0 p-0
           py-10
           "
           >

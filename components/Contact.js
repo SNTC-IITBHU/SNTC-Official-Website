@@ -9,7 +9,7 @@ import Img22 from '../public/Contacts/image 22.svg'
 const Contact = () => {
   const [isPaused, setIsPaused] = useState(true);
   return (
-    <div className="relative md:top-[-50vh] top-[-10%] lg:top-[-60vh]">
+    <div className="relative md:top-[-30vh] top-[-10%] lg:top-[-50vh]">
       <AnimationOnScroll
         animateIn="animate__pulse"
         afterAnimatedIn={function (visible) {
@@ -32,7 +32,7 @@ const Contact = () => {
           points: 3,
         }}
       />
-      <div className="bg-[#1E0226] h-[70vh] w-screen  relative -top-5 flex flex-col justify-around">
+      <div className="bg-[#1E0226] h-[70vh] w-screen relative -top-5 flex flex-col justify-around">
         <Image className="h-[5vh] w-[80vw] mx-auto" src={Meet} alt="" ></Image>
         <div className="flex flex-row justify-around mb-[10vh] bg-contain bg-[url('/Contacts/Soundwaves+rectangle.svg')]">
           <div className="flex flex-col max-w-[33vw] mx-1">
