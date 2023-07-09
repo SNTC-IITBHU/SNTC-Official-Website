@@ -9,7 +9,7 @@ export const navLinks=[
         title:"Clubs",
      },
      {
-        id:"/Events",
+        id:"/events",
         title:"Events",
          
      },
