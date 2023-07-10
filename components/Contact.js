@@ -34,8 +34,8 @@ const Contact = () => {
       />
       <div className="bg-[#1E0226] h-[70vh] w-screen relative -top-5 flex flex-col justify-around">
         <Image className="h-[5vh] w-[80vw] mx-auto" src={Meet} alt="" ></Image>
-        <div className="flex flex-row justify-around mb-[10vh] bg-contain bg-[url('/Contacts/Soundwaves+rectangle.svg')]">
-          <div className="flex flex-col max-w-[33vw] mx-1">
+        <div className="flex text-center flex-col sm:flex-row justify-around mb-[10vh] bg-contain bg-[url('/Contacts/Soundwaves+rectangle.svg')]">
+          <div className="flex flex-col mt-4 mb-4 items-center sm:max-w-[33vw] mx-1">
             <Image
               className="w-[23vw] md:w-auto border-8 rounded-full"
               src={Img20}
@@ -48,7 +48,7 @@ const Contact = () => {
               Joint General Secretary
             </div>
           </div>
-          <div className="flex flex-col max-w-[33vw]">
+          <div className="flex flex-col mt-4 mb-4 items-center sm:max-w-[33vw]">
             <Image
               className="w-[23vw] md:w-auto border-8 rounded-full"
               src={Img21}
@@ -59,7 +59,7 @@ const Contact = () => {
             </div>
             <div className="text-white m-auto text-sm">General Secretary</div>
           </div>
-          <div className="flex flex-col max-w-[33vw]">
+          <div className="flex flex-col mt-4 mb-4 items-center sm:max-w-[33vw]">
             <Image
               className="w-[23vw] md:w-auto border-8 rounded-full"
               src={Img22}

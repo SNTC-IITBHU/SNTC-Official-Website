@@ -12,12 +12,13 @@ import Newsletter from "../public/Footer/newsletter.svg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [isPaused, setIsPaused] = useState(false);
 
   return (
-    <footer>
-      <svg
+    <footer className="">
+      {/* <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="-mb-0.5 w-full"
+        className="-mb-0.5 w-full bg-[#1E0226]"
         viewBox="0 0 1367.743 181.155"
       >
         <path
@@ -27,8 +28,9 @@ const Footer = () => {
           d="M0,0S166.91-56.211,405.877-49.5,715.838,14.48,955.869,26.854,1366,0,1366,0V115H0Z"
           transform="translate(1.743 66.155)"
         ></path>
-      </svg>
-      <div className="bg-gradient-to-b from-gray-100 to-transparent dark:from-gray-800 dark:to-transparent pt-1">
+      </svg> */}
+      
+      <div className="bg-[#1E0226] -mt-6">
         <div className="container m-auto space-y-8 px-6 text-gray-600 dark:text-gray-400 md:px-12 lg:px-20">
           <div className="grid grid-cols-8 gap-6 md:gap-0">
             <div className="col-span-8 border-r border-gray-100 dark:border-gray-800 md:col-span-2 lg:col-span-3">
