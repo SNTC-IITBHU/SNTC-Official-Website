@@ -9,8 +9,8 @@ import Img22 from '../public/Contacts/image 22.svg'
 const Contact = () => {
   const [isPaused, setIsPaused] = useState(true);
   return (
-    <div className="relative md:top-[-30vh] top-[-10%] lg:top-[-50vh]">
-      <AnimationOnScroll
+    <div className="relative ">
+      {/* <AnimationOnScroll
         animateIn="animate__pulse"
         afterAnimatedIn={function (visible) {
           setIsPaused(false);
@@ -21,7 +21,7 @@ const Contact = () => {
         afterAnimatedOut={function (visible) {
           setIsPaused(true);
         }}
-      ></AnimationOnScroll>
+      ></AnimationOnScroll> */}
       <Wave
         fill="#1E0226"
         paused={isPaused}
@@ -74,7 +74,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
+     
     </div>
+    
   );
 }
 

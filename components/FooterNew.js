@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Wave from "react-wavify";
+import { useState } from "react";
+
 import Temple from "../public/Footer/temple.svg";
 import Footerlogo from "../public/Footer/footerlogo.svg";
 import Linkedin from "../public/Footer/linkedin.svg";

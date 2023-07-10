@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Aboutus from "../components/Aboutus";
 import Achievements from "../components/Achievements";
 import Hero from "../components/Hero";
-import Footer from "../components/Footer";
+import Footer from "../components/FooterNew";
 import Amongusbg from "@/components/Amongusbg";
 import Technex from "@/components/Technex";
 import Contact from "@/components/Contact";
