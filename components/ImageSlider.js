@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 export default function ImageSlider(props) {
 
   return (
-    <Carousel className="flex-coloumn items-center justify-center" thumbWidth={90} autoPlay={true} infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={2000} height="40rem" width="50rem">
+    <Carousel className="flex-coloumn items-center justify-center sm:w-[50rem]" thumbWidth={90} autoPlay={true} infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={2000} height="40rem" >
       <div>
         <img src={props.slides[0].source} />
 
