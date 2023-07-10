@@ -20,7 +20,7 @@ export default function Home() {
         <Achievements></Achievements>
         <Technex></Technex>
         <Contact></Contact>
-        <Contactus></Contactus>
+        {/*<Contactus></Contactus>*/}
         <Footer></Footer>
       </div>
     </>

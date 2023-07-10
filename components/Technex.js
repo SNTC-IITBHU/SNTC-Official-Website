@@ -7,8 +7,8 @@ const Technex=()=>{
     return (
       <div
 
-        className="relative w-screen  flex flex-col top-[-50vh] lg:top-[-70vh]
-      h-[80vh] md:h-[120vh]  w-screen bg-cover bg-[url('/Technex/technex_bg.svg')] justify-around"
+        className="relative w-screen  flex flex-col top-[-50vh] lg:top-[-70vh] -mb-[34rem]
+      h-[80vh] md:h-[120vh] bg-cover bg-[url('/Technex/technex_bg.svg')] justify-around"
 
       >
         <Image
