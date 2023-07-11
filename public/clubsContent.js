@@ -1,15 +1,15 @@
 export const clubscontent = [
-  {
-    id: "/#180 DC",
-    title: "180 DC",
-    name: "180 DC",
-    description:
-      "We provide high-quality consulting services to social impact organizations so they can improve and expand their services. We have over 10,000 carefully selected and professionally trained volunteer consultants worldwide, who work tirelessly so that organizations can achieve their full potential and help more people in need.",
-    image: "/180DC(1).svg",
-  },
+  // {
+  //   id: "/#180 DC",
+  //   title: "180 DC",
+  //   name: "180 DC",
+  //   description:
+  //     "We provide high-quality consulting services to social impact organizations so they can improve and expand their services. We have over 10,000 carefully selected and professionally trained volunteer consultants worldwide, who work tirelessly so that organizations can achieve their full potential and help more people in need.",
+  //   image: "/180DC(1).svg",
+  // },
   {
     id: "/#AMC",
-    title:"AMC",
+    title: "AMC",
     name: "Aero-Modelling Club",
     description:
       "Unleash your potential in aeronautics and aerospace engineering with the Aero Club at IIT BHU. Learn through hands-on projects, workshops and expert talks. Explore the limitless possibilities of  the field and develop your skills to new heights. The Aero Club  provides a platform for students to tap into their potential and ignite their passion for this exciting field.",
@@ -63,6 +63,4 @@ export const clubscontent = [
       "Our club is dedicated to providing students with a deep understanding of engineering technology and design principles, and empowering them with the skills necessary to succeed in this exciting field. Whether you are a seasoned engineer or just starting out, you all will find a wealth of opportunities for learning and growth within our club. From participating in hands-on projects and workshops, to learning from industry experts through guest lectures, to competing in design competitions, the SAE Club at IIT BHU is your launchpad for a successful career in engineering.",
     image: "/sae (1).svg",
   },
- 
-
 ];
