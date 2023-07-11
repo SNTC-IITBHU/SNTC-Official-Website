@@ -15,7 +15,7 @@ const Footer = () => {
   const [isPaused, setIsPaused] = useState(false);
 
   return (
-    <footer className="">
+    <footer id={"contacts"}>
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         className="-mb-0.5 w-full bg-[#1E0226]"
@@ -29,7 +29,7 @@ const Footer = () => {
           transform="translate(1.743 66.155)"
         ></path>
       </svg> */}
-      
+
       <div className="bg-[#1E0226] -mt-6">
         <div className="container m-auto space-y-8 px-6 text-gray-600 dark:text-gray-400 md:px-12 lg:px-20">
           <div className="grid grid-cols-8 gap-6 md:gap-0">
@@ -101,7 +101,10 @@ const Footer = () => {
                       </a>
                     </li> */}
                     <li>
-                      <a href="mailto:gensec.sntc@iitbhu.ac.in" className="hover:text-white">
+                      <a
+                        href="mailto:gensec.sntc@iitbhu.ac.in"
+                        className="hover:text-white"
+                      >
                         {" "}
                         Email: gensec.sntc@iitbhu.ac.in
                       </a>
