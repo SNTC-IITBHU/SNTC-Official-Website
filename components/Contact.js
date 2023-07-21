@@ -32,7 +32,7 @@ const Contact = () => {
               className="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
               src={Img21}
               alt="woman"
-              loading="lazy"
+              // loading="lazy"
               width="640"
               height="805"
             />
@@ -50,7 +50,7 @@ const Contact = () => {
               className="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
               src={Img20}
               alt="man"
-              loading="lazy"
+              // loading="lazy"
               width="1000"
               height="667"
             />
@@ -68,7 +68,7 @@ const Contact = () => {
               className="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
               src={Img22}
               alt="woman"
-              loading="lazy"
+              // loading="lazy"
               width="1000"
               height="667"
             />
