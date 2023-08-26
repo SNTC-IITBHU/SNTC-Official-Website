@@ -123,12 +123,14 @@ const Footer = () => {
                             name="newsletter"
                             id="newsletter"
                             placeholder="Your email"
+                           
                             className="invalid:outline-none placeholder-gray-600 rounded-3xl w-full bg-gray-100 dark:bg-gray-900 px-4 py-3 ring-1 ring-gray-200 dark:ring-gray-700 invalid:ring-red-400"
                           />
                           <button
                             type="submit"
                             title="Submit"
-                            className="absolute right-0 w-max rounded-r-3xl bg-primary py-3 px-6 text-center transition bg-[#D12156] hover:bg-[#c92b5b]"
+                             
+                            className=" absolute right-0 w-max rounded-r-3xl rounded-l-3xl bg-primary py-3 px-6 text-center transition bg-[#D12156] hover:bg-[#c92b5b]"
                           >
                             <span className="font-semibold text-gray-100">
                               Send

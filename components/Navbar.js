@@ -29,7 +29,8 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`mt-1 lg:mt-4 font-poppins font-normal tracking-wider cursor-pointer z-[100]  2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[14px] sm:text-[12px] 2xl:mt-[4%] ${
+                //added hover events
+                className={` hover:text-gray-600  mt-1 lg:mt-4 font-poppins font-normal tracking-wider cursor-pointer z-[0]  2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[14px] sm:text-[12px] 2xl:mt-[4%] ${
                   active === nav.title
                     ? ` z-[100] text-white font-bold`
                     : "text-stone-300"

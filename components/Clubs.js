@@ -45,7 +45,7 @@ const Clubs = () => {
         "
         >
           <div
-            className="text-[#8C50A6] text-center text-3xl font-bold lg:text-8xl md:text-5xl m-0 p-0
+            className=" animate-pulse text-white    text-center text-3xl font-bold lg:text-8xl md:text-5xl m-0 p-0
           py-10
           "
           >
