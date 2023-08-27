@@ -37,11 +37,11 @@ const ClubsPage = () => {
       </div>
 
       <div className="  flex flex-col fixed bottom-10px rounded-l-[100px] xl:w-[86.75%] box-border ml-[200px] mt-[5px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
-        <div className=" overflow-y-scroll overflow-x-hidden mb-[100px]">
-          <div className="mt-16 pt-[20px] relative  md:right-[60px] pl-[60px] pr-10 md:pr-0  md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ">
+        <div className="overflow-y-scroll overflow-x-hidden mb-[100px] ">
+          <div className="mt-16 pt-[20px] relative md:right-[60px] pl-[60px] pr-10 md:pr-0 md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ml-[-40px] mr-[60px]">
             Check out our <span className="text-pink-700">clubs</span>
           </div>
-          <h4 className="w-[98.9%] text-center md:text-justify pl-[80px] pr-[40px] md:pr-[0px] leading-[20px] md:leading-[32px] pb-[20px] not-italic font-semibold text-[18px] md:text-[25px] text-white ">
+          <h4 className="w-[98.9%] text-center md:text-justify pl-[80px] pr-[40px] md:pr-[0px] leading-[20px] md:leading-[32px] pb-[20px] not-italic font-semibold text-[18px] md:text-[25px] text-white ml-[-40px] mr-[60px]">
             Science and Technology Council offers clubs for students interested
             in science and technology fields such as robotics, engineering,
             astronomy, and sustainability. These clubs offer hands-on
@@ -51,19 +51,19 @@ const ClubsPage = () => {
 
           <>
             {clubscontent.map((nav, index) => (
-              <div id={nav.id} key={index}>
-                <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px] mr-[32px] md:mr-0 md:text-[35px] font-bold not-italic text-[25px] text-pink-700 ">
+              <div id={nav.id} key={index} className="ml-[10px]">
+                <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px] md:mr-0 md:text-[35px] font-bold not-italic text-[25px] text-pink-700 ml-[-50px] mr-[80px]">
                   {nav.name}
                 </div>
-                <div className="flex flex-wrap m-auto md:m-0 items-center xl:justify-start xl:pl-[85px] pb-[40px] pt-[10px]">
+                <div className="flex flex-wrap m-auto md:m-0 items-center xl:justify-start xl:pl-[0px] pb-[40px] pt-[10px]">
                   <Image
-                    className="realtive block m-auto rounded-[50px] outline outline-2 border-black"
+                    className="realtive block m-auto rounded-[50px] outline outline-2 border-black ml-[80px]"
                     src={nav.image}
                     alt={nav.id}
                     width={280}
                     height={280}
                   ></Image>
-                  <h4 className="pl-[40px] pr-[30px] pb-[10px] pt-[20px] leading-[20px] md:leading-[32px] not-italic font-normal text-[18px] md:text-[25px] w-[900px] text-center md:text-justify text-white tracking-wide">
+                  <h4 className="pl-[30px] pr-[30px] pb-[15px] pt-[10px] leading-[20px] md:leading-[32px] not-italic font-normal text-[18px] md:text-[25px] w-[900px] text-center md:text-justify text-white tracking-wide mr-[100px] border-2 border-#140014 bg-#140014 rounded-xl">
                     {nav.description}
                   </h4>
                 </div>
