@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useState } from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -10,8 +11,10 @@ const ClubsPage = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState("Ourclubs");
 
+ 
+
   return (
-    <div className="mt-24 ">
+    <div className="mt-24 rounded-[100px]" >
       {/* <section className="flex items-start relative top-2 w-[100%]"> */}
 
       <div id="content-wrapper" className="  fixed pt-[55px] mt-[32px] ">
@@ -36,8 +39,8 @@ const ClubsPage = () => {
         </ul>
       </div>
 
-      <div className="  flex flex-col fixed bottom-10px rounded-l-[100px] xl:w-[86.75%] box-border ml-[200px] mt-[5px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
-        <div className=" overflow-y-scroll overflow-x-hidden mb-[100px]">
+      <div className="  flex flex-col fixed bottom-10px  rounded-[100px]  xl:w-[86.75%] box-border ml-[200px] mr-[70px] mb-[70px] mt-[5px] h-[100%] bg-gradient-to-b from-[#2D1634] to-[#1A091F]">
+        <div className=" overflow-y-scroll overflow-x-hidden mb-[100px] rounded-[100px] ">
           <div className="mt-16 pt-[20px] relative  md:right-[60px] pl-[60px] pr-10 md:pr-0  md:pl-[30px] w-[320px] md:w-[700px] not-italic font-bold text-[25px] md:text-[50px] text-center text-white ">
             Check out our <span className="text-pink-700">clubs</span>
           </div>
@@ -51,21 +54,36 @@ const ClubsPage = () => {
 
           <>
             {clubscontent.map((nav, index) => (
-              <div id={nav.id} key={index}>
+              <div  id={nav.id} key={index}>
                 <div className="pt-18px relative left-[30px] pl-[45px] pb-[5px] mr-[32px] md:mr-0 md:text-[35px] font-bold not-italic text-[25px] text-pink-700 ">
                   {nav.name}
                 </div>
-                <div className="flex flex-wrap m-auto md:m-0 items-center xl:justify-start xl:pl-[85px] pb-[40px] pt-[10px]">
-                  <Image
-                    className="realtive block m-auto rounded-[50px] outline outline-2 border-black"
+                <div className=" flex flex-wrap m-auto md:m-0 items-center xl:justify-start xl:pl-[85px] pb-[40px] pt-[10px]">
+               <div  >  <Link href={`${nav.website}`} target="_blank"> <Image
+                    className="hover:cursor-pointer hover:scale-105 realtive block m-auto rounded-[50px] outline outline-2 border-black"
                     src={nav.image}
                     alt={nav.id}
                     width={280}
                     height={280}
+                  
                   ></Image>
-                  <h4 className="pl-[40px] pr-[30px] pb-[10px] pt-[20px] leading-[20px] md:leading-[32px] not-italic font-normal text-[18px] md:text-[25px] w-[900px] text-center md:text-justify text-white tracking-wide">
+                  </Link>
+                  </div>
+                 
+                  
+                  <h4 className="pl-[40px] pr-[30px] pb-[10px] pt-[20px] leading-[20px] md:leading-[32px] not-italic font-normal text-[18px] md:text-[20px] w-[875px] text-center md:text-justify text-white tracking-wide">
                     {nav.description}
                   </h4>
+                  <div className="mt-[20px] flex">
+                  <div className="pr-[20px] pl-[70px]"><Link href={`${nav.linkedIn}`} target='_blank'> <img alt="linkedin" loading="lazy" width="42" height="43" decoding="async" data-nimg="1" className="hover:cursor-pointer h-8 w-8 transition-transform transform-gpu hover:scale-110" src="/_next/static/media/linkedin.524beac6.svg" style={{color: 'transparent'}} /></Link> </div>
+                  <div className="pr-[20px]"><Link href={`${nav.instagramid}`} target='_blank'><img alt="instagram"  loading="lazy" width="42" height="43" decoding="async" data-nimg="1" className="hover:cursor-pointer h-8 w-8 transition-transform transform-gpu hover:scale-110" src="/_next/static/media/instagram.92f6aca2.svg" style={{color: 'transparent'}}/></Link></div>
+                  <div className="pr-[20px]"><Link href={`${nav.facebook}`} target='_blank'>  <img alt="facebook" loading="lazy" width="43" height="43" decoding="async" data-nimg="1" className="hover:cursor-pointer h-8 w-8 transition-transform transform-gpu hover:scale-110" src="/_next/static/media/facebook.e779fc8c.svg" style={{color: "transparent"}}/></Link> </div>
+                   </div>
+              
+                 
+                
+               
+                  
                 </div>
               </div>
             ))}
