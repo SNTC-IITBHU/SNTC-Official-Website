@@ -18,6 +18,7 @@ const ClubsPage = () => {
         <ul className="flex flex-col  gap-5 pr-[9px]  h-[100%]">
           
           {clubscontent.map((nav, index) => (
+            <Link href={`#${nav.id}`}>
             <li
               key={nav.id}
               className={`  cursor-pointer flex items-center text-white pr-[20px] w-[98%] pl-[4px] list-none relative left-2 h-67px not-italic font-semibold text-[28px] hover:bg-white hover:rounded-l-lg  hover:text-black hover:text-opacity-50 hover:w-[192px] ${
@@ -31,9 +32,10 @@ const ClubsPage = () => {
               }`}
               onClick={() => setActive(nav.id)}
             >
-              <Link href={`#${nav.id}`}>{nav.title}</Link>
+              {nav.title}
               
             </li>
+            </Link>
           ))}
         </ul>
       </div>
@@ -68,7 +70,7 @@ const ClubsPage = () => {
       
                     
                   ></Image>
-                  <h4 className=" cursor-pointer mx-10   rounded-lg  mt-5 pl-[40px] pr-[30px] pb-[10px] pt-[20px] leading-[20px] md:leading-[32px] not-italic font-normal text-[20px] md:text-[18px] w-[900px] text-center md:text-justify text-white tracking-wide">
+                  <h4 className="cursor-pointer mx-10   rounded-lg  mt-5 pl-[40px] pr-[30px] pb-[10px] pt-[20px] leading-[20px] md:leading-[32px] not-italic font-normal text-[20px] md:text-[18px] w-[900px] text-center md:text-justify text-white tracking-wide">
                     {nav.description}
                   </h4>
                  
