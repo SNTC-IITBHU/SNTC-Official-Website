@@ -84,9 +84,11 @@ const Footer = () => {
             </div>
             <div className="col-span-8 md:col-span-6 lg:col-span-5">
               <div className="grid grid-cols-2 gap-32 pb-16 sm:grid-cols-2 md:pl-16">
-                <div className="hidden md:block">
+                <div className="hidden md:block mt-6">
+                  {" "}
                   <Image src={Temple} alt="temple"></Image>
                 </div>
+
                 <div className="col-span-2 sm:col-span-2 md:col-span-1">
                   <h6 className="text-lg font-medium text-gray-700 dark:text-gray-200">
                     Contact
@@ -128,9 +130,9 @@ const Footer = () => {
                           <button
                             type="submit"
                             title="Submit"
-                            className="absolute right-0 w-max rounded-r-3xl bg-primary py-3 px-6 text-center transition bg-[#D12156] hover:bg-[#c92b5b]"
+                            className="absolute right-0 w-max bg-primary py-3 px-6 text-center transition bg-[#D12156] hover:bg-[#c92b5b] rounded-full"
                           >
-                            <span className="font-semibold text-gray-100">
+                            <span className="font-semibold text-gray-100 rounded-full border-none">
                               Send
                             </span>
                           </button>

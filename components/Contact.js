@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="grid items-center gap-12 md:grid-cols-3 mb-4">
           <div className="space-y-4 text-center">
             <Image
-              className="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+              className="border-2 border-white-500 rounded-xl mx-auto h-64 w-64 object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
               src={Img21}
               alt="woman"
               loading="lazy"
@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
           <div className="space-y-4 text-center">
             <Image
-              className="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+              className="border-2 border-white-500 rounded-xl mx-auto h-64 w-64 object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
               src={Img20}
               alt="man"
               loading="lazy"
@@ -65,7 +65,7 @@ const Contact = () => {
           </div>
           <div className="space-y-4 text-center">
             <Image
-              className="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+              className="border-2 border-white-500 rounded-xl mx-auto h-64 w-64 object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
               src={Img22}
               alt="woman"
               loading="lazy"
