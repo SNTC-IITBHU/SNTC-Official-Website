@@ -21,7 +21,7 @@ export default function Achievements() {
         }}
       />
       <div className="bg-[#2D1634] mt-[-10px] md:h-[120vh] h-[100vh] relative -top-5">
-        <div className="text-center md:text-8xl text-5xl text-[#8C50A6] font-bold relative top-[5%]">
+        <div className="animate-pulse text-white  opacity-70 text-center md:text-8xl text-5xl  font-bold relative top-[5%]">
           Achievements
         </div>
         <div className="flex items-center justify-center h-screen w-screen">

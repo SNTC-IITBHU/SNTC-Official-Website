@@ -70,9 +70,9 @@ const Footer = () => {
       <Image
         src={Newsletter}
         alt="newsletter"
-        className="absolute 2xl:top-[25.5%] lg:top-[24%] md:top-[28%] 2xl:right-[11.5%] lg:right-[10%] md:right-[3%] 2xl:w-[10.5%] lg:w-[10.5%] md:w-[23%] w-[21%] top-[40%] right-[4.5%]"
+        className=" absolute 2xl:top-[25.5%] lg:top-[24%] md:top-[28%] 2xl:right-[11.5%] lg:right-[10%] md:right-[3%] 2xl:w-[10.5%] lg:w-[10.5%] md:w-[23%] w-[21%] top-[40%] right-[4.5%]"
       ></Image>
-      <span className="absolute 2xl:top-[69.6%] xl:top-[55%] lg:top-[68%] md:top-[59%] 2xl:right-[7.2%] xl:right-[3%] lg:right-[5%] md:right-[0.1%] text-white font-semibold 2xl:text-[19px] lg:text-[15px] md:text-[16px] text-[6.5px] right-[2%] top-[75%]">
+      <span className=" absolute 2xl:top-[69.6%] xl:top-[55%] lg:top-[68%] md:top-[59%] 2xl:right-[7.2%] xl:right-[3%] lg:right-[5%] md:right-[0.1%] text-white font-semibold 2xl:text-[19px] lg:text-[15px] md:text-[16px] text-[6.5px] right-[2%] top-[75%]">
         Subscribe to our Newsletter!
       </span>
       <form action="#" method="post">
@@ -83,6 +83,7 @@ const Footer = () => {
           aria-label="email address"
           placeholder="Enter your email address"
         />
+        
       </form>
     </div>
   );
