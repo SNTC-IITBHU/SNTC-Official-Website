@@ -7,19 +7,19 @@ const Technex=()=>{
     return (
       <div
 
-        className="relative w-screen  flex flex-col top-[-50vh] lg:top-[-70vh] -mb-[34rem]
-      h-[80vh] md:h-[120vh] bg-cover bg-[url('/Technex/technex_bg.svg')] justify-around"
+        className="relative w-screen  flex flex-col top-[-80vh] lg:top-[-70vh] -mb-[34rem]
+      h-[40vh] md:h-[120vh] bg-cover bg-[url('/Technex/technex_bg.svg')] justify-around"
 
       >
         <Image
-          className="h-[10vh] md:h-[30vh] mt-[10vh]"
+          className="h-[10vh] md:h-[30vh] md:mt-[10vh]"
           src={Technextitle}
           alt=""
         ></Image>
         <div className="md:flex flex-row justify-around">
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <Image
-              className="h-[10vh] md:h-auto m-auto md:my-[15%] lg:my-[5%]
+              className="h-[10vh] md:h-auto my-6 m-auto md:my-[15%] lg:my-[5%]
               "
               src={AboutTechnex}
               alt=""
@@ -27,7 +27,7 @@ const Technex=()=>{
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInRight">
             <Image
-              className="m-[auto] w-[80vw] md:w-auto lg:w-[50vw] h-[10vh] md:h-auto"
+              className="m-[auto] w-[80vw] md:w-auto lg:w-[50vw] md:h-auto"
               src={TechnexContent}
               alt=""
             ></Image>

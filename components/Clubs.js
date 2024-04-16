@@ -65,10 +65,10 @@ const Clubs = () => {
             <Image className="m-auto" src={Assighat} alt="assi ghat"></Image>
             <div
               className="
-            sm:w-[90vw]
-            lg:w-[50vw] h-50vh
-            text-white text-justify text-1.5xl not-italic font-light tracking-normal leading-10
-             lg:text-3xl md:text-2xl m-0 p-0 px-8 mt-5
+            w-[90vw]
+            lg:w-[50vw]
+            text-white text-justify text-lg not-italic font-light tracking-normal
+             lg:text-3xl md:text-2xl m-0 p-0 mt-5
             "
             >
               The Science and Technology Council , IIT BHU comprises various

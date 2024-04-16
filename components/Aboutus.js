@@ -54,10 +54,10 @@ const Aboutus = () => {
             >
               {/* <img src="/About/About usabt_title.svg" alt="" /> */}
               {/* <img className="my-[10%] " src="/About/abt_content.svg" alt="" /> */}
-              <div className="about-heading text-[#8C50A6] font-bold  text-[65px] 2xl:text-8xl  md:text-8xl md:mt-[-110px] md:mr-[-10px]">
+              <div className="about-heading text-[#8C50A6] font-bold md:text-[65px] text-3xl md:mt-[-110px] md:mb-0 -mb-[100px] md:mr-[-10px]">
                 About Us
               </div>
-              <div className="about-content ml-[-2%] md:ml-[5%] text-white text-[19px] 2xl:mt-[-170px] 2xl:ml-[10%] 2xl:text-3xl  md:mt-[-80px] md:text-3xl">
+              <div className="about-content ml-[-2%] md:ml-[5%] text-white text-[19px] 2xl:mt-[-170px] 2xl:ml-[10%] 2xl:text-3xl  md:mt-[-80px] md:text-3xl md:mb-0">
                 The Science and Technology Council at IIT BHU is a student-run
                 organization that aims to promote the understanding and
                 application of science and technology among the IIT BHU
@@ -65,8 +65,6 @@ const Aboutus = () => {
               </div>
             </div>
           </AnimationOnScroll>
-
-
         </div>
       </div>
     </div>
